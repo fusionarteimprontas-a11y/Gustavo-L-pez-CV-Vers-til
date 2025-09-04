@@ -1,0 +1,87 @@
+@media screen and (max-width: 992px) {
+    .hero-container {
+        flex-direction: column;
+    }
+    .contacto-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo {
+        margin-bottom: 15px;
+    }
+    .menu-toggle {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    nav {
+        width: 100%;
+        display: none;
+    }
+    nav.active {
+        display: block;
+    }
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+    nav ul li {
+        margin: 0;
+        width: 100%;
+    }
+    nav ul li a {
+        display: block;
+        padding: 15px 0;
+        border-bottom: 1px solid var(--color-border);
+    }
+    .hero {
+        padding: 130px 0 60px;
+    }
+    .hero-title {
+        font-size: 2rem;
+    }
+    .stats {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sector-cards {
+        grid-template-columns: 1fr;
+    }
+    .proyectos-destacados {
+        grid-template-columns: 1fr;
+    }
+    .habilidades-3d {
+        grid-template-columns: 1fr;
+    }
+    .experiencia-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .experiencia-periodo {
+        margin-top: 5px;
+    }
+    .formacion-item {
+        flex-direction: column;
+    }
+    .formacion-icono {
+        margin-bottom: 15px;
+    }
+    .footer-column {
+        flex: 0 0 100%;
+    }
+    .cta-float {
+        bottom: 20px;
+        right: 20px;
+    }
+    .text-size-control {
+        bottom: 90px;
+        right: 20px;
+    }
+}
