@@ -36,3 +36,8 @@ Se ha creado la siguiente estructura de carpetas y archivos:
 
 - **Crear sección 'Portafolio':** El siguiente paso es mejorar el contenido del sitio web. Se ha acordado crear una nueva sección de "Portafolio" en el `index.html` para mostrar las galerías de imágenes del usuario.
   - **Acción requerida:** Modificar `index.html` para añadir la nueva sección y el enlace en el menú de navegación. Posteriormente, se añadirán los estilos CSS y la lógica JS necesaria para la galería.
+
+## 5. Principios y Flujo de Trabajo
+- **Sincronización Constante:** El directorio local `Pagina Web VSC` y el repositorio remoto en GitHub deben mantenerse siempre sincronizados. Cualquier cambio local debe ser subido a GitHub.
+- **Actualización del Contexto:** Este archivo (`CONTEXTO_PROYECTO.md`) debe ser actualizado después de cada avance significativo para reflejar el estado actual del proyecto.
+- **Revisión Inicial:** Al comenzar una nueva sesión, se debe revisar este documento para entender el estado actual y los siguientes pasos.
