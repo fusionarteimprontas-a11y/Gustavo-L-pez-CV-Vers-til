@@ -26,14 +26,13 @@ Se ha creado la siguiente estructura de carpetas y archivos:
 
 ## 3. Estado Actual (Resumen de Avances)
 
-- **Reestructuración completada:** Se separó el código del archivo HTML original en la estructura de archivos descrita arriba. El diseño y la funcionalidad se han mantenido.
-- **Control de Versiones (Git):**
-  - Se inicializó un repositorio local de Git en la carpeta del proyecto.
-  - Se creó y configuró un archivo `.gitignore`.
-  - Se han añadido todos los archivos del proyecto al repositorio (`git add .`).
-  - Se realizó el primer "commit" con el mensaje "Commit inicial", guardando la primera versión del proyecto.
+- **Reestructuración completada:** Se separó el código del archivo HTML original en la estructura de archivos descrita arriba.
+- **Control de Versiones (Git):** Se inicializó un repositorio local y se realizó el primer commit.
+- **Conexión con GitHub completada:** El repositorio local se ha enlazado con el repositorio remoto en GitHub.
+- **Despliegue automático con GitHub Pages:** Se ha configurado un flujo de trabajo de GitHub Actions (`.github/workflows/deploy.yml`) que despliega automáticamente el sitio web en cada `push` a la rama `main`.
+- **Sitio web en línea:** El proyecto está publicado y accesible en la URL: [https://fusionarteimprontas-a11y.github.io/Gustavo-L-pez-CV-Vers-til/](https://fusionarteimprontas-a11y.github.io/Gustavo-L-pez-CV-Vers-til/)
 
 ## 4. Siguiente Paso Pendiente
 
-- **Conectar con GitHub:** El siguiente paso es conectar el repositorio local con un repositorio remoto en GitHub para tener una copia de seguridad y habilitar futuras colaboraciones o despliegues.
-  - **Acción requerida:** Crear un repositorio vacío en GitHub y proporcionar la URL para configurar la conexión remota.
+- **Crear sección 'Portafolio':** El siguiente paso es mejorar el contenido del sitio web. Se ha acordado crear una nueva sección de "Portafolio" en el `index.html` para mostrar las galerías de imágenes del usuario.
+  - **Acción requerida:** Modificar `index.html` para añadir la nueva sección y el enlace en el menú de navegación. Posteriormente, se añadirán los estilos CSS y la lógica JS necesaria para la galería.
