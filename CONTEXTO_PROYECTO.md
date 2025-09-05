@@ -31,11 +31,12 @@ Se ha creado la siguiente estructura de carpetas y archivos:
 - **Conexión con GitHub completada:** El repositorio local se ha enlazado con el repositorio remoto en GitHub.
 - **Despliegue automático con GitHub Pages:** Se ha configurado un flujo de trabajo de GitHub Actions (`.github/workflows/deploy.yml`) que despliega automáticamente el sitio web en cada `push` a la rama `main`.
 - **Sitio web en línea:** El proyecto está publicado y accesible en la URL: [https://fusionarteimprontas-a11y.github.io/Gustavo-L-pez-CV-Vers-til/](https://fusionarteimprontas-a11y.github.io/Gustavo-L-pez-CV-Vers-til/)
+- **Estructura de Portafolio Creada:** Se ha añadido la sección de "Portafolio" al `index.html`, incluyendo un enlace en el menú de navegación y un marcador de posición para la futura galería.
 
 ## 4. Siguiente Paso Pendiente
 
-- **Crear sección 'Portafolio':** El siguiente paso es mejorar el contenido del sitio web. Se ha acordado crear una nueva sección de "Portafolio" en el `index.html` para mostrar las galerías de imágenes del usuario.
-  - **Acción requerida:** Modificar `index.html` para añadir la nueva sección y el enlace en el menú de navegación. Posteriormente, se añadirán los estilos CSS y la lógica JS necesaria para la galería.
+- **Poblar la Galería del Portafolio:** El siguiente paso es añadir el contenido visual a la sección de "Portafolio".
+  - **Acción requerida:** Diseñar y desarrollar la galería de imágenes. Esto implicará escribir el HTML para las imágenes, añadir estilos en CSS para la cuadrícula y la visualización, y posiblemente añadir JavaScript para funcionalidades como un lightbox (vista ampliada).
 
 ## 5. Principios y Flujo de Trabajo
 - **Sincronización Constante:** El directorio local `Pagina Web VSC` y el repositorio remoto en GitHub deben mantenerse siempre sincronizados. Cualquier cambio local debe ser subido a GitHub.
