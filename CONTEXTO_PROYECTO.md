@@ -32,6 +32,7 @@ Se ha creado la siguiente estructura de carpetas y archivos:
 - **Despliegue automático con GitHub Pages:** Se ha configurado un flujo de trabajo de GitHub Actions (`.github/workflows/deploy.yml`) que despliega automáticamente el sitio web en cada `push` a la rama `main`.
 - **Sitio web en línea:** El proyecto está publicado y accesible en la URL: [https://fusionarteimprontas-a11y.github.io/Gustavo-L-pez-CV-Vers-til/](https://fusionarteimprontas-a11y.github.io/Gustavo-L-pez-CV-Vers-til/)
 - **Estructura de Portafolio Creada:** Se ha añadido la sección de "Portafolio" al `index.html`, incluyendo un enlace en el menú de navegación y un marcador de posición para la futura galería.
+- **Rutas y URLs Críticas Corregidas:** Se han actualizado las rutas de recursos y las URLs de ejemplo (`https://example.com`) en `index.html` a las correctas de GitHub Pages, asegurando el correcto funcionamiento del sitio y mejorando el SEO.
 
 ## 4. Siguiente Paso Pendiente
 
